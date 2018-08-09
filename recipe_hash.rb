@@ -22,17 +22,6 @@ end
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips
-  perfect_10_recipe = {:almond_flour => "2 cups",
-      :gluten_free_whole_oats => "1 cup",
-      :kosher_salt => "1/2 tea spoon",
-      :baking_powder => "1/2 tea spoon",
-      :baking_soda => "1/4 tea spoon",
-      :xanthan_Gum => "1/2 tea spoon",
-      :slivered_almonds => "1/4 cup",
-      :mini_dark_chocolate_chips => "3/4 cup",
-      :olive_oil => "1/2 cup",
-      :agave => "1/4 cup"
-    }
   return perfect_10_recipe[:mini_dark_chocolate_chips]
 end
 
