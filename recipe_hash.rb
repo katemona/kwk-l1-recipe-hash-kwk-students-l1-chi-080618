@@ -33,7 +33,7 @@ def amount_of_chocolate_chips
       :olive_oil => "1/2 cup",
       :agave => "1/4 cup"
     }
-  return perfect_10_recipe{:mini_dark_chocolate_chips}
+  return perfect_10_recipe[:mini_dark_chocolate_chips]
 end
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
